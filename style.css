@@ -1,0 +1,407 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;}
+.container{
+    width: 1170;
+    margin: auto;
+}  
+ul{
+    list-style-type: none;
+}  
+a{
+    text-decoration: none;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+.wrapper a{
+    position: relative;
+    display: inline-block;
+    padding: 25px;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    
+    color: #cec81d ;
+    font-weight: bold;
+    letter-spacing: 4px;
+    transition: 0.5s;
+    overflow: hidden;
+    bottom: 50px;
+} 
+    
+.wrapper a:hover{
+    background-color:#cec81d ;
+    color: black;
+    box-shadow: 0 0 5px #cec81d,
+    0 0 25px #cec81d,
+    0 0 50px #cec81d,
+    0 0 200px #cec81d;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#about h2{
+     color: #02918c;
+     text-transform: uppercase;
+     font-family: "Open Sans", sans-serif;
+
+     
+}
+
+#about .header{
+    text-align: center;
+}
+#about .header h2{
+    font-size:46px ;
+    font-weight: 800;
+}
+#about .header span{
+    color: #7e8287;
+    padding:33px ;
+    display: inline-block;
+}
+
+#about .header p{
+    padding:0 200px ;
+    color: #7e8287;
+    font-size: 16px;
+    line-height: 41px;
+}
+#about .header p b{
+    font-size:23px ;
+
+    
+}
+#about .box{
+    width: 25%;
+    text-align: center;
+    border-right: 2px solid #d9dbdb;
+    
+}
+#about .box:last-child{
+    border-right: none;
+}
+#about .box h4{
+    color: #7e8287;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif; 
+    padding: 33px;
+
+}
+#about .box p{
+    color: #7e8287;
+    font-size: 11px;
+    font-family: "Open Sans", sans-serif; 
+    line-height: 21px;
+    padding:0 50px;
+
+
+}
+
+#about .row{
+    padding:80px 0 100px 0 ;
+}
+
+#service{
+    background-image: url(./MYFOLIO\ \(1\)\ \(1\).png);
+    
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+#service .servise-header{
+    width: 470px 0 35px 0;
+    
+}
+
+#service .servise-header h2{
+    font-size: 46px;
+    font-weight: 800;
+    color: #02918c;
+    padding: 75px 0 35px 0;
+    text-transform: uppercase;
+    font-family:"Open Sans", sans-serif;  
+}
+#service .servise-header span{
+    color: #7e8287;
+    font-family:"Open Sans", sans-serif; 
+
+
+}
+#service .servise-header p{
+    margin-top: 30px;
+    color: #7e8287;
+    font-size: 16px;
+    line-height: 41px;
+    width: 470px;
+    font-family:"Open Sans", sans-serif; 
+    margin-bottom: 56px;
+}
+#service .row{
+    width: 470px;
+}
+#service .row .ser-box{
+    width: 50%;
+    color: #7e8287;
+    font-family:"Open Sans", sans-serif ;
+    padding: 53px  50px ;
+    
+}
+#service .row .ser-box h4{
+    padding:19px 0 22px 0 ;
+    font-family:"Open Sans", sans-serif ;
+
+
+}
+#service .row .ser-box p{
+    font-family:"Open Sans", sans-serif ;
+    width: 190px;
+}
+#workk .my-work{
+    text-align: center;
+}
+    
+    
+#workk .my-work h2{
+    font-size: 46px;
+    font-weight: 800;
+    color: #02918c;
+    padding: 55px 0 33px 0;
+    text-transform: uppercase;
+    font-family:"Open Sans", sans-serif;  
+}
+
+#workk .my-work span{
+    color: #7e8287;
+    font-family:"Open Sans", sans-serif; 
+
+
+}
+#work .my-work p{
+    
+    color: #7e8287;
+    font-size: 16px;
+    line-height: 31px;
+font-family:"Open Sans", sans-serif;
+padding: 40px;
+
+ }
+ #first{
+    margin-top: 78px;
+ }
+
+ #first .img{
+    width: 25%;
+    position: relative;
+    
+ }
+ #first .img img{
+    width: 100%;
+    display:block;
+ }
+ #first .img .man{
+    background-color: #02918c;
+    inset: 10%;
+    position: absolute;
+    opacity: 0.85;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+    
+    
+    
+ }
+ #first .img .man .contains{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    
+
+ }
+ #first .img:hover .man {
+    opacity:0.85 ;
+    visibility: visible;
+ }
+
+ 
+
+
+
+ 
+ 
+
+
+
+
+
+
+ #ser .ser-head{
+    text-align: center;
+}
+    
+    
+#ser .ser-head h2{
+    font-size: 46px;
+    font-weight: 800;
+    color: #02918c;
+    padding: 55px 0 33px 0;
+    text-transform: uppercase;
+    font-family:"Open Sans", sans-serif;  
+}
+
+#ser .ser-head span{
+    color: #7e8287;
+    font-family:"Open Sans", sans-serif; 
+
+
+}
+#ser .ser-head p{
+    
+    color: #7e8287;
+    font-size: 16px;
+    line-height: 31px;
+font-family:"Open Sans", sans-serif;
+padding: 40px;
+
+ }
+ 
+
+
+ 
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
